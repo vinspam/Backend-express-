@@ -1,0 +1,28 @@
+export enum GENDER {
+  MALE = 'MALE',
+  FEMALE = 'FEMALE',
+}
+
+export enum ROLE {
+  USER = 'USER',
+  ADMIN = 'ADMIN',
+}
+
+export enum STATUS {
+  BLOCKED = 'BLOCKED',
+  NOT_VERIFIED = 'NOT_VERIFIED',
+  VERIFIED = 'VERIFIED',
+  WITHOUT_PAYMENT = 'WITHOUT_PAYMENT',
+  WITHOUT_SUBSCRIBE = 'WITHOUT_SUBSCRIBE',
+  WITH_PAYMENT = 'WITH_PAYMENT',
+}
+
+export enum ACTION_FOR_SAVED_VIDEO {
+  ADD = 'ADD',
+  REMOVE = 'REMOVE',
+}
+
+export enum UNITS {
+   KG = 'KG',
+   LBS = 'LBS'
+}
